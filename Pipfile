@@ -10,6 +10,7 @@ django-bootstrap4 = "*"
 django-extra-views = "*"
 mysqlclient = "*"
 markdown = "*"
+pillow = "*"
 
 [dev-packages]
 
