@@ -22,13 +22,11 @@ TEMPLATE_DIR = os.path.join(MAIN_DIR,"templates")
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 's3#tej=^qp^iwkfb889@2160&(&#&tr$ryzhx%!2n%!7m0!@d('
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
-ALLOWED_HOSTS = []
+
+
+
 
 
 # Application definition
@@ -117,16 +115,7 @@ EMAIL_USE_SSL = False
 # settings.py
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# if you want to use my_sql
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'school_project',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '1122'
-    }
-}
+
 
 
 

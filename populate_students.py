@@ -1,7 +1,7 @@
 import os
 # Configure settings for project
 # Need to run this before calling models from application!
-os.environ.setdefault('DJANGO_SETTINGS_MODULE','university_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE','university_project.settings.dev')
 
 import django
 # Import settings
