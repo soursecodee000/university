@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 dj-database-url = "*"
+django-bootstrap4 = "*"
 
 [dev-packages]
 
