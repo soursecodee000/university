@@ -4,7 +4,7 @@ import dj_database_url
 
 SECRET_KEY=os.environ['SECRET_KEY']
 
-# DEBUG = False
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['uet-prod-9bd1d0504011.herokuapp.com']
