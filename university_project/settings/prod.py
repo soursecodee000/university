@@ -7,7 +7,7 @@ SECRET_KEY=os.environ['SECRET_KEY']
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['uet-prod-9bd1d0504011.herokuapp.com']
+ALLOWED_HOSTS = ['uet-prod-9276ddfdf732.herokuapp.com']
 
 DATABASES = {
     'default':dj_database_url.config()
