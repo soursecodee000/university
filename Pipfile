@@ -12,6 +12,7 @@ mysqlclient = "*"
 markdown = "*"
 pillow = "*"
 django-braces = "*"
+argon2-cffi = "*"
 
 [dev-packages]
 
