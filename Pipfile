@@ -8,6 +8,7 @@ gunicorn = "*"
 dj-database-url = "*"
 django-bootstrap4 = "*"
 django-extra-views = "*"
+mysqlclient = "*"
 
 [dev-packages]
 
